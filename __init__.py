@@ -1,3 +1,5 @@
 # __init__.py
 
-from .delall import delall  # Expose delall() directly at the package level
+from .delall import delvars
+
+__all__ = ['delvars']  # Expose 'delvars' to the outside world
