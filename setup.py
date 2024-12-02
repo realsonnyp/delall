@@ -1,17 +1,17 @@
 # delall_package/setup.py
 
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
-    name="delall_package",
+    name="delall",
     version="0.1.0",
-    packages=find_packages(),
+    py_modules=["delall"],  # Explicitly declare the module (delall.py)
     description="A simple package to delete all variables in the current namespace",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",
     author="Sampson Palmisano",
     author_email="spalmisano21@hotmail.com",
-    url="https://github.com/realsonnyp/delall_package",  # Update with your GitHub URL
+    url="https://github.com/realsonnyp/delall",  # Update with your GitHub URL
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
