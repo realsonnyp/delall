@@ -1,4 +1,4 @@
-# delall_package/setup.py
+# delall/setup.py
 
 from setuptools import setup
 
