@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name="delall_package",
-    version="0.1.0",
+    version="1.0.0",
     py_modules=["delall"],  # Explicitly declare the module (delall.py)
     description="A simple package to delete all variables in the current namespace",
     long_description=open('README.md').read(),
